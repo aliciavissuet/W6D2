@@ -1,0 +1,56 @@
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+/* .hanoi li {
+  background: salmon;
+  height: 30px;
+  width: 200px;
+  margin: 5px;
+  display: flex;
+}
+
+.hanoi ul li:last-child {
+  background: bisque;
+  /* display: none; */
+} */
+
+.tower ul {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.hanoi {
+  display: flex;
+  flex-direction: row;
+  background: yellowgreen;
+}
+
+.disc1 {
+  background: blue;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+}
+
+.disc2 {
+  background: purple;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+}
+
+.disc3 {
+  background: orangered;
+    display: inline-block;
+  width: 30px;
+  height: 30px;
+}
+
+.base {
+  background: yellow;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+}

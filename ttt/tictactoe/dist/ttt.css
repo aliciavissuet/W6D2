@@ -1,0 +1,42 @@
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  background: #4478e2;
+  height: auto;
+  width: 300px;
+  justify-content: center;
+  padding: 0;
+}
+
+.unclicked {
+  display: inline-block;
+  background: #44e2af;
+  height: 75px;
+  width: 25%;
+  padding: 0;
+  border: 10px solid #4478e2;
+}
+
+.unclicked:hover {
+  background: #ad44e2;
+}
+
+.clicked {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #299b76;
+  color: white;
+  font-size: 50px;
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  display: block;
+}
